@@ -1,17 +1,16 @@
-let score = undefined;
-console.log(typeof score);
-console.log(typeof (score));
-let valueInNumber= Number(score)
-console.log(typeof valueInNumber);
-console.log(valueInNumber);
-let number = 1258
-stringy = String(number);
-console.log(stringy);
-console.log(typeof stringy);
+// let score = undefined;
+// console.log(typeof score);
+// console.log(typeof (score));
+// let valueInNumber= Number(score)
+// console.log(typeof valueInNumber);
+// console.log(valueInNumber);
+// let number = 1258
+// stringy = String(number);
+// console.log(stringy);
+// console.log(typeof stringy);
 /*
 Interview tricky questions
 null when converted to number will return 0
-
 when we use typeOF(null)  we will get {} an empty object
 
 let score = "32as"
@@ -42,3 +41,17 @@ boolean language
 
 same ways we can use String method and convert a number into string
 */
+
+// let str = "Asad"
+// let str2 = " Mehmood"
+// let str3 = str + str2
+// console.log(str3);
+
+// understanding the
+// prefix and postfix increment values 
+// let num1
+let gameCounter = 100
+
+gameCounter++;
+++gameCounter;
+console.log(gameCounter);

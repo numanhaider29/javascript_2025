@@ -15,12 +15,9 @@
 // number 2 to power 53
 // bigint 
 // string
-// boolean =>true/false
-// null => standalone value
-// undefined value not defined yet
+// boolean =>true/false 
+// null => standalone value 
+// undefined value not defined yet 
 // Symbol to find uniquness 
  console.log(typeof null); // object
  console.log(typeof undefined); // undefined
- 
- 
- 
