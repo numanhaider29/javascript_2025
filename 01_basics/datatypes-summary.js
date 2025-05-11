@@ -36,3 +36,24 @@ const myfunction1= function(params) {
 console.log( typeof(temp));
 console.log(typeof myfunction)
 // use the typof javascript function to find the data-types of both premitive and non-pemitive data-types
+//  +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (Premitive), Heap (non-premitive)
+//  in stack we get the copy of data-type used because it's memory based
+// in Heap we get the reference of the value means changes occure in the actuall value
+
+let name = "Nouman Haider"
+let name1 = name
+name1  = "Asad Mahmood" 
+console.log(name);
+console.log(name1);
+
+let user1 ={
+name : "Nouman Haider",
+email : "numanhaider29@gmail.com"
+}
+let user2 = user1
+
+user2.email = "numanhaider29@yahoo.com"
+console.log(user1.email);
+console.log(user2.email);
