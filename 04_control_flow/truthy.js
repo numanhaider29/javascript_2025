@@ -23,3 +23,12 @@ if (Object.keys(emptyObj).length === 0) {
     console.log("the object is not empty");
     
 }
+// Nullish coalescing operator
+let val1 = 5 ?? 10
+ val1 = null ?? 15
+ console.log(val1)
+
+//  turnery operator 
+// condition ? true : false
+const iceTeaPrice = 85
+iceTeaPrice >= 80 ? console.log("The price is greater than 80"): console.log("the price is less than 80");
