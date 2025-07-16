@@ -52,3 +52,4 @@ myNums.forEach((num)=>{
 })
 console.log(newnums);
 
+
